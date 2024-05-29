@@ -1,4 +1,4 @@
-package Siva_test;
+package Madhavi_test;
 
 
 import java.net.MalformedURLException;
@@ -33,8 +33,8 @@ public class TestScenario_3
         capabilities.setCapability("browserName", browser);
         capabilities.setCapability("browserVersion", version);
         capabilities.setCapability("platformName", platform);
-   		capabilities.setCapability("browserName", "Chrome");
-   		capabilities.setCapability("browserVersion", "122");
+   	//	capabilities.setCapability("browserName", "Chrome");
+   	//	capabilities.setCapability("browserVersion", "122");
         capabilities.setCapability("build", "Selenium 4");
         capabilities.setCapability("name", this.getClass().getName());
         capabilities.setCapability("network", true);
@@ -44,8 +44,8 @@ public class TestScenario_3
         capabilities.setCapability("tunnel", false);
 
         HashMap<String, Object> ltOptions = new HashMap<>();
-        ltOptions.put("user", "mullurisiva");
-        ltOptions.put("accessKey", "CVLrm6ctyWxpw2X8o6UvHnU95mSj8lD3nRwuppMvevK68UWlkl");
+        ltOptions.put("user", "madhavinidamaluri93");
+        ltOptions.put("accessKey", "9UuD1iYCGE6k0wV2dcTcIRDfta1uJiI0JcvE9n3YbfDCzodAhE");
         
         capabilities.setCapability("LT:Options", ltOptions);
 
